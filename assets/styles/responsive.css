@@ -1,0 +1,389 @@
+@media screen and (max-width: 1024px) {
+  .header-img {
+    width: 65%;
+    padding: 0 1rem;
+  }
+
+  .banner {
+    width: 108%;
+    height: 111vh;
+    background-image: url(../images/tema.png);
+    background-size: cover;
+  }
+
+  .banner .container {
+    padding: 75px 0 0 0;
+  }
+
+  .banner-inner {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    height: 100%;
+  }
+
+  .left-banner {
+    text-align: center;
+    margin: 66px 1rem;
+  }
+
+  .banner-video {
+    justify-content: center;
+    position: relative;
+    top: -15px;
+    left: -10px;
+  }
+
+  .left-banner .banner-title {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .left-banner .banner-desc {
+    margin-top: 26px;
+    width: 93%;
+    font-size: 15px;
+    padding: 0px 2px;
+    margin-left: 1rem;
+  }
+
+  .banner-inner .right-banner img {
+    position: relative;
+    width: 264px;
+    height: 270px;
+    margin-top: -9.1rem;
+    margin-left: 37px;
+  }
+
+  .banner-card {
+    width: 100%;
+    padding: 44px 50px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-top: -4rem;
+  }
+
+  .banner-card-section {
+    display: none;
+  }
+
+  .banner-card-section.active {
+    display: block;
+    padding: 100px 15px 40px;
+  }
+
+  .banner-card-inner {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    width: 100px;
+    height: 35vh;
+  }
+
+  .banner-card-item .text {
+    font-size: 16px;
+    color: #180161;
+    text-wrap: nowrap;
+    font-family: "Poppins-SemiBold", sans-serif;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 15px 49px;
+    background-color: #f392b2;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    text-wrap: nowrap;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 4rem;
+    font-size: 17px;
+  }
+
+  .banner-card-item:nth-child(2) {
+    width: 210%;
+  }
+
+  .banner-card-item:nth-child(3) {
+    justify-content: center;
+    width: 250%;
+  }
+
+  .banner-card-item img {
+    margin-left: -5rem;
+    width: 35px;
+  }
+
+  .banner-card-item img.two {
+    width: 75px;
+  }
+
+  .meeting {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px 50px 15px;
+  }
+
+  .meeting-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .left-meeting,
+  .right-meeting {
+    width: 110%;
+    margin-left: 2rem;
+  }
+
+  .meeting-title {
+    padding: 30px;
+    /* font-size: 5px; */
+  }
+
+  .meeting-desc {
+    font-size: 12px;
+    margin-top: -4px;
+    width: 322px;
+    margin-left: 0.8rem;
+  }
+
+  .programs-title {
+    font-size: 18px;
+    text-align: center;
+    color: var(--pink);
+    margin-right: -3rem;
+    margin-top: -2rem;
+  }
+
+  .programs-subtitle {
+    line-height: 1;
+    font-size: 30px;
+    text-align: center;
+    color: var(--blue);
+    margin-left: 3rem;
+  }
+
+  .programs-tab {
+    flex-direction: column;
+    padding: 29px 50px;
+    gap: 18px;
+    margin-left: -1rem;
+    position: relative;
+    left: 1.5rem;
+  }
+  .programs {
+    padding: 50px 0;
+    font-family: "Medium", sans-serif;
+    margin-left: 0rem;
+  }
+
+  .programs-tab-content {
+    padding: 0 25px;
+    position: relative;
+    left: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .faq-subtitle {
+    padding: -3rem;
+    width: 93.3%;
+  }
+
+  .programs-tab-item {
+    width: 100%;
+  }
+
+  .application {
+    width: 108%;
+    height: 100vh;
+    background-image: url(../images/tema3.png);
+    background-size: cover;
+  }
+
+  .application-inner {
+    border-radius: 20px;
+    padding: 2rem 25px 0 5px;
+  }
+
+  .left-application {
+    width: 100%;
+    margin-top: 16rem;
+    margin-left: 0.4rem;
+    width: 105%;
+    height: 85vh;
+  }
+
+  .left-application p {
+    width: 250px;
+    margin-top: -1rem;
+    margin-left: -3rem;
+    padding: 0.5rem -1rem;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .left-application h2 {
+    margin-left: -3.5rem;
+    line-height: 2;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .application-form {
+    gap: 15px;
+  }
+
+  .input-group {
+    margin-left: 1.5em;
+    padding-top: 0.5rem;
+  }
+
+  .input-group .input {
+    padding: -2rem 0 0;
+    margin: 0 -59px;
+    font-size: 14px;
+  }
+
+  .application-submit {
+    font-size: 16px;
+    width: 223px;
+    margin-left: -2.5rem;
+    padding: 28px -25px;
+    border-radius: 12px;
+    margin-left: -17px;
+  }
+
+  .button-text {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .application-submit .icon img {
+    width: 12px;
+    height: 9px;
+  }
+
+  .faq {
+    background-color: #fceeee;
+    padding: 50px 0;
+    width: 109%;
+  }
+
+  .faq-title {
+    font-family: "SemiBold", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: var(--pink);
+    padding-top: -3rem;
+    position: relative;
+    top: -1.7rem;
+  }
+
+  .faq-subtitle {
+    padding: -3rem;
+    width: 93.3%;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+  }
+
+  .icon {
+    margin-left: 6rem;
+  }
+
+  .footer {
+    padding: 11rem 0;
+    position: relative;
+    width: 108%;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .footer-grid-1 .logo {
+    margin-top: -8rem;
+    width: 330px;
+    margin-left: -2rem;
+  }
+
+  .social-media a {
+    margin-top: -3rem;
+  }
+
+  .footer-grid-2 {
+    margin-top: 0.3rem;
+  }
+
+  .footer-grid-2 p {
+    padding: 2px 59px;
+    margin-top: -0.8rem;
+  }
+
+  .footer-grid-2 .copy {
+    position: absolute;
+    bottom: -27rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: -15rem !important;
+  }
+
+  .footer-grid-1,
+  .footer-grid-2,
+  .footer-grid-3 {
+    width: 100%;
+  }
+  .footer-grid-2::after,
+  .footer-grid-3::after {
+    display: none;
+  }
+
+  .footer-grid-3 {
+    margin-top: -2rem;
+    z-index: 181;
+  }
+
+  .footer-right-text {
+    margin-top: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .programs-tab-content {
+    padding: 0 25px;
+  }
+
+  .application-inner {
+    display: block;
+  }
+
+  .left-application {
+    width: 100%;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .footer-grid-2::after,
+  .footer-grid-3::after {
+    display: none;
+  }
+
+  .footer-grid-1,
+  .footer-grid-2,
+  .footer-grid-3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
